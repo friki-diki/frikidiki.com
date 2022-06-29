@@ -42,6 +42,3 @@ yarn-error.log*
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
-
-# ignore live build output on branches other than live
-/docs/
