@@ -2,11 +2,16 @@
   "name": "frikidiki.com",
   "version": "0.1.0",
   "private": true,
+  "license": "AGPLv3",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export -o docs/",
+    "clean": "rm -rf .next docs",
+    "isNotDirty": "[[ -z $(git status -s) ]]",
+    "release": "yarn install && yarn isNotDirty && yarn clean && yarn build && yarn export"
   },
   "dependencies": {
     "next": "12.2.0",
@@ -20,5 +25,6 @@
     "eslint": "8.18.0",
     "eslint-config-next": "12.2.0",
     "typescript": "4.7.4"
-  }
+  },
+  "packageManager": "yarn@3.2.1"
 }
