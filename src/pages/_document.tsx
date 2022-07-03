@@ -4,7 +4,7 @@ export default function Document() {
 	return (
 		<Html>
 			<Head />
-			<body style={{background: '#f9e6b5'}}>
+			<body className="min-h-screen bg-[#F9E6B5] bg-[url('../assets/images/bg.png')] rendering-pixelated">
 				<Main />
 				<NextScript />
 			</body>
