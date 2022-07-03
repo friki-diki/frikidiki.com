@@ -4,7 +4,7 @@ export default function Document() {
 	return (
 		<Html>
 			<Head />
-			<body className="min-h-screen bg-[#F9E6B5] bg-[url('../assets/images/bg.png')] rendering-pixelated">
+			<body className="font-serif min-h-screen bg-[#F9E6B5] bg-[url('../assets/images/bg.png')] rendering-pixelated">
 				<Main />
 				<NextScript />
 			</body>
