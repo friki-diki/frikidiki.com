@@ -1,10 +1,10 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import logo from '../../assets/images/logo.webp'
 import logoRotating from '../../assets/images/logo-rotating.gif'
 import map from '../../assets/images/map.png'
 import favicon from '../../assets/images/favicon.png'
+import alley from '../../assets/images/alley.jpg'
 import partyDancing from '../../assets/images/party-dancing.gif'
 import { FC, useEffect, useRef } from 'react'
 
@@ -66,6 +66,12 @@ const Home: NextPage = () => {
 					</h3>
 					<hr className="border-2 border-[#773F0A]"/>
 					<hr className="mt-1 [border-image:url('../assets/images/bamboo-border-fixed-smaller.png')_25_repeat] border-t-[10px]"/>
+					<div className="mt-12">
+						<Image src={alley}/>
+					</div>
+					<div className="mt-12"></div>
+					<a className="text-neutral-900 underline text-xl" href="https://www.facebook.com/groups/goldenguyalley/" target="_blank">Golden Guy Facebook Page</a>
+					<div className="mt-12"></div>
 				</div>
 			</div>
 		</div>
