@@ -1,8 +1,8 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
+import Image from 'next/future/image'
 import logoRotating from '../../assets/images/logo-rotating.gif'
-import map from '../../assets/images/map.png'
+import map from '../../assets/images/map2023.png'
 import favicon from '../../assets/images/favicon.png'
 import alley from '../../assets/images/alley.jpg'
 import partyDancing from '../../assets/images/party-dancing.gif'
@@ -31,7 +31,7 @@ const Home: NextPage = () => {
 			<div className="text-center text-[#773F0A]">
 				<Head>
 					<title>Friki Diki</title>
-					<meta name="description" content="Visit Friki Diki at Burning Man in 2022!" />
+					<meta name="description" content="Visit Friki Diki at Burning Man in 2023!" />
 					<link rel="icon" href={favicon.src} />
 				</Head>
 
@@ -46,9 +46,9 @@ const Home: NextPage = () => {
 				</div>
 
 				<div className="max-w-4xl mx-auto mt-8 mb-32 p-4 bg-[#FFF8EC] [border-image:url('../assets/images/bamboo-border-fixed-smaller.png')_25_repeat] border-[20px] [border-image-outset:5px_!important]">
-					<h2 className="text-5xl">Friki Diki is coming to the playa 2022!</h2>
-					<h3 className="text-2xl mt-2">Come for tropical drinks and fun at 7:15 &amp; Dali!</h3>
-					<div className="max-w-[420px] mx-auto mt-6">
+					<h2 className="text-5xl">Friki Diki is coming to the playa 2023!</h2>
+					<h3 className="text-2xl mt-2">Come for tropical drinks and fun at 7:45 &amp; Dingbat!</h3>
+					<div className="max-w-[420px] mx-auto mt-6 border-[#773F0A] border-4">
 						<Image src={map}/>
 					</div>
 					<hr className="mt-12 [border-image:url('../assets/images/bamboo-border-fixed-smaller.png')_25_repeat] border-t-[10px]"/>
